@@ -11,3 +11,9 @@
 # Keep the top-level README & LICENSE
 !README.md
 !LICENSE.md
+
+# Single most important file...
+!init.el
+
+# Customizations
+!/settings/*
