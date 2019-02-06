@@ -36,8 +36,7 @@ A few quick notes before jumping in:
 ### Documentation
 
 Most of the documentation for how this is layed out and organized can
-be found in `init.el`.  Open up the [init file](https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html) as a jumping-off point
-to other settings and their documentation.
+be found in [`init.el`](https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html).  Open up the [init file](github.com/zerjens/.emacs.d/blob/master/init.el) as a jumping-off point to other settings and their documentation.
 
 #### Loading Changes w/out Restart
 
@@ -66,8 +65,8 @@ then `Control`+`e`).  The point start blinking right away.
 
 More on evaluating elisp in place:
 
-** [Mastering Emacs: Evaluating Elisp in Emacs](https://www.masteringemacs.org/article/evaluating-elisp-emacs)
-** [Introduction to Programming in Emacs Lisp: Evaluation](https://www.gnu.org/software/emacs/manual/html_node/eintr/How-to-Evaluate.html#How-to-Evaluate)
+* [Mastering Emacs: Evaluating Elisp in Emacs](https://www.masteringemacs.org/article/evaluating-elisp-emacs)
+* [Introduction to Programming in Emacs Lisp: Evaluation](https://www.gnu.org/software/emacs/manual/html_node/eintr/How-to-Evaluate.html#How-to-Evaluate)
 
 ##### Change Window Navigation Settings
 
