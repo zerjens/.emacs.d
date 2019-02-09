@@ -55,11 +55,10 @@
 (let ((themes-dir "~/.emacs.d/settings/themes/"))
   (->> (directory-files themes-dir)
        (-drop 3)
-       (-remove 'file-directory-p)
+       (-filter 'file-directory-p)
        (--map (concat themes-dir it))
        (--map (add-to-list 'custom-theme-load-path it))))
 
-;; Custom Themes
 (load-theme 'noctilux t)
 
 
