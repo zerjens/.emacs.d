@@ -48,14 +48,13 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Load Custom Themese
+;; Load Custom Themes
 (setq custom-safe-themes t)
 
 ;; Stuart Sierras 'threading-with-style'
 (let ((themes-dir "~/.emacs.d/settings/themes/"))
   (->> (directory-files themes-dir)
        (-drop 3)
-       (-filter 'file-directory-p)
        (--map (concat themes-dir it))
        (--map (add-to-list 'custom-theme-load-path it))))
 
