@@ -29,7 +29,6 @@
 
 ;; Activate package archives, this will prompt for gnugp keys only once.
 (package-initialize)
-(setq package-enable-at-startup nil)
 
 ;; Fetch available packages
 (unless package-archive-contents
@@ -46,26 +45,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Include directories under 'customizations' e.g. 'themes'
-(let ((default-directory "~/.emacs.d/settings"))
-  (add-to-list 'load-path default-directory)
-  (normal-top-level-add-subdirs-to-load-path))
+(add-to-list 'load-path "~/.emacs.d/settings")
 
 ;; gnu.org/software/emacs/manual/html_node/emacs/Saving-Customizations.html
-;; Super fucking annoying to have this appended to init.el.
+;; Always an eyesore to see 'custom-set-variables' appended to init.el...
 (load "custom.el")
 
-(load "ui.el")
-
 (load "ux.el")
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (neotree smex))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
+(load "ui.el")

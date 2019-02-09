@@ -22,7 +22,7 @@ learning emacs and emacs-lisp:
 * [Emacs Rocks](http://emacsrocks.com/) highly recommend the ['magit' module](http://emacsrocks.com/e17.html).
 * [Emacs is Sexy (Obviously)](http://emacs.sexy/)
 * [Magnar's .emacs.d](https://github.com/magnars/.emacs.d)
-* ["tuhdo"'s .emacs.d for C/C++](https://tuhdo.github.io/emacs-tutor.html)
+* [tuhdo's .emacs.d for C/C++](https://tuhdo.github.io/emacs-tutor.html)
 
 ### Usability
 
@@ -93,7 +93,7 @@ is a custom key-binding for this function:
 This allows traversal forwards as well as backwards through windows by
 using `C-x` then a lowercase or capital `o` respectively.
 
-There are alternatives to this such as [**Wind Move**](https://www.emacswiki.org/emacs/WindMove) and [**Ace-Window**](https://github.com/abo-abo/ace-window)
+There are alternatives to this such as [**Wind Move**](https://www.emacswiki.org/emacs/WindMove) and [**Ace-Window**](https://github.com/abo-abo/ace-window).
 If you opt to use either of these and want to unset the key-binding for
 `previous-multiframe-window`:
 
