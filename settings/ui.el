@@ -52,17 +52,12 @@
 (setq custom-safe-themes t)
 
 ;; Stuart Sierras 'threading-with-style'
-(let* ((themes-dir "~/.emacs.d/settings/themes/"))
+(let ((themes-dir "~/.emacs.d/settings/themes/"))
   (->> (directory-files themes-dir)
        (-drop 3)
        (-remove 'file-directory-p)
        (--map (concat themes-dir it))
        (--map (add-to-list 'custom-theme-load-path it))))
-
-;; (let ((base-dir "~/.emacs.d/settings/themes"))
-;;   (dolist (theme (seq-drop (directory-files base-dir) 3))
-;;     (when (file-directory-p theme)
-;;       (add-to-list 'custom-theme-load-path (concat base-dir theme)))))
 
 ;; Custom Themes
 (load-theme 'noctilux t)
