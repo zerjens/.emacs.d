@@ -16,7 +16,4 @@
 !init.el
 
 # Customizations
-!settings/custom.el
-!settings/ui.el
-!settings/ux.el
-!settings/themes/*
+!settings/*
