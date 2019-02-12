@@ -2,7 +2,7 @@
 ;;
 ;; Emacs Starting Point.
 ;;    This file focuses on loading packages, finding
-;;    other settings files, and managing custimizations:
+;;    other settings files, and managing customizations:
 ;;    https://www.gnu.org/software/emacs/manual/html_node/elisp/Starting-Up.html
 ;;
 ;; Package Management:

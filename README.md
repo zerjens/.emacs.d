@@ -100,7 +100,7 @@ If you opt to use either of these and want to unset the key-binding for
 1. `M-:`
 2.  Type `(global-unset-key (kbd "C-x O"))` and hit ENTER.
 
-On reason I don't use **Wind Move** is that it conflicts with [Org Mode](https://orgmode.org/manual/Conflicts.html)
+One reason I don't use **Wind Move** is that it conflicts with [Org Mode](https://orgmode.org/manual/Conflicts.html)
 
 ##### Counter Example
 
