@@ -66,6 +66,3 @@
 (dolist (p custom-packages)
   (when (not (package-installed-p p))
     (package-install p)))
-
-;; Immediately start using dash/dash-functional
-(require 'dash)

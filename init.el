@@ -44,7 +44,7 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Include directories under 'customizations' e.g. 'themes'
+;; Include directories under '~/.emacs.d/settings' e.g. 'ui.el' & 'themes'.
 (add-to-list 'load-path "~/.emacs.d/settings")
 
 ;; gnu.org/software/emacs/manual/html_node/emacs/Saving-Customizations.html

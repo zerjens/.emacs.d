@@ -20,5 +20,25 @@
 !settings/custom.el
 !settings/ui.el
 !settings/ux.el
+
+# Preloaded, Safe Themes
 !settings/themes/
 !settings/themes/*
+
+# Programming Modes/Settings
+!settings/programming/
+!settings/programming/settings_00_elisp.el
+!settings/programming/settings_01_racket_scheme.el
+!settings/programming/settings_02_clojure.el
+!settings/programming/settings_03_scala.el
+!settings/programming/settings_04_haskell.el
+!settings/programming/settings_06_prolog.el
+!settings/programming/settings_08_swift.el
+!settings/programming/settings_10_kotlin.el
+!settings/programming/settings_12_python.el
+!settings/programming/settings_05_erlang.el
+!settings/programming/settings_07_idris.el
+!settings/programming/settings_09_rust.el
+!settings/programming/settings_11_julia.el
+!settings/programming/settings_13_r.el
+!settings/programming/settings_14_c.el
