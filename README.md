@@ -36,7 +36,7 @@ A few quick notes before jumping in:
 ### Documentation
 
 Most of the documentation for how this is layed out and organized can
-be found in [`init.el`](github.com/zerjens/.emacs.d/blob/master/init.el).  Open up the [init file](https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html) as a jumping-off point to other settings and their documentation.
+be found in [`init.el`](https://github.com/zerjens/.emacs.d/blob/master/init.el).  Open up the [init file](https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html) as a jumping-off point to other settings and their documentation.
 
 #### Loading Changes w/out Restart
 
@@ -49,11 +49,11 @@ Below are a few simple examples:
 
 ##### Point/Cursor Blinking Mode
 
-Some of the customizations under `settings/ui.el` will require a restart
+Some of the customizations under [`settings/ui.el`](https://github.com/zerjens/.emacs.d/blob/master/settings/ui.el) will require a restart
 to take effect because they are intended to change start-up behavior.
 There are a few simple forms in here that can be changed on the fly
 though, like having the point (e.g. cursor) blink.  To do this open up
-the `setting/ui.el` file in a buffer, in here lives the elisp form:
+the [`ui.el`](https://github.com/zerjens/.emacs.d/blob/master/settings/ui.el) file in a buffer, in here lives the elisp form:
 
 `(blink-cursor-mode 0)`
 
@@ -85,7 +85,7 @@ a link to the source code for `other-window` can be found with:
 
 This explains things better than I have so far but probably also seems
 a bit ineffecient for navigation still.  To compliment `other-window`
-there is `previous-multiframe-window`.  Under `settings/ux.el` there
+there is `previous-multiframe-window`.  Under [`settings/ux.el`](https://github.com/zerjens/.emacs.d/blob/master/settings/ux.el) there
 is a custom key-binding for this function:
 
 `(global-set-key (kbd "C-x O") 'previous-multiframe-window)`
